@@ -10,4 +10,5 @@ Then, the total thrust, control torques and remaining states are calculated from
 A mix-rpm matrix allows to compute rotors speeds from total thrust and control torques
 
 The file 'cost_function.m' implements the cost function to be minimized in the mpc optimization at each step, as well as its gradient
+
 The file 'HessianJ.m' implements the hessian matrix of the cost function
